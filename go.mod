@@ -1,4 +1,4 @@
-module github.com/mcubik/goverreport
+module github.com/timonwong/goverreport
 
 go 1.17
 

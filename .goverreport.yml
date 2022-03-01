@@ -1,4 +1,4 @@
-root: "github.com/mcubik/goverreport"
+root: "github.com/timonwong/goverreport"
 exclusions:
   - test
   - vendor

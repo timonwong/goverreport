@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mcubik/goverreport/config"
-	"github.com/mcubik/goverreport/report"
-	"github.com/mcubik/goverreport/testdata"
 	"github.com/stretchr/testify/assert"
+	"github.com/timonwong/goverreport/config"
+	"github.com/timonwong/goverreport/report"
+	"github.com/timonwong/goverreport/testdata"
 )
 
 func TestLoadConfiguration(t *testing.T) {
@@ -16,7 +16,7 @@ func TestLoadConfiguration(t *testing.T) {
 	conf, err := loadConfig(".goverreport.yml")
 	assert.NoError(err)
 	assert.Equal(conf, config.Configuration{
-		Root:       "github.com/mcubik/goverreport",
+		Root:       "github.com/timonwong/goverreport",
 		Exclusions: []string{"test", "vendor"},
 		Threshold:  80,
 		Metric:     "stmt"})

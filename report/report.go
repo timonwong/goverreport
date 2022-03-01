@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/mattn/go-zglob"
-	"github.com/mcubik/goverreport/config"
+	"github.com/timonwong/goverreport/config"
 	"golang.org/x/tools/cover"
 )
 

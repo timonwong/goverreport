@@ -3,9 +3,9 @@ package report
 import (
 	"testing"
 
-	"github.com/mcubik/goverreport/config"
-	"github.com/mcubik/goverreport/testdata"
 	"github.com/stretchr/testify/assert"
+	"github.com/timonwong/goverreport/config"
+	"github.com/timonwong/goverreport/testdata"
 )
 
 var results []Summary
